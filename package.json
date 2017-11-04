@@ -1,0 +1,22 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Repository for Homework #8",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxsho/liri-node-app.git"
+  },
+  "author": "Majid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxsho/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/maxsho/liri-node-app#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7"
+  }
+}
