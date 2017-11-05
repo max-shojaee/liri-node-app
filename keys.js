@@ -1,6 +1,8 @@
-console.log('this is loaded');
+//console.log('this is loaded');
 
 var keys = {
+
+		// Twitter authentication keys
 		twitterKeys: {
 		  consumer_key: 'TOAu2nV1GcXkEvWCS7fcLPbGN',
 		  consumer_secret: 'czSpDW9BvUiCQvs4AuWMkSplXmP9kv6AMGdYNQxdaxitPnIKlg',
@@ -8,11 +10,13 @@ var keys = {
 		  access_token_secret: '0nIalS7G6ONhvlwzh77sDHPHIo6UE2428k852WuJJCUEU',
 		},
 
+		// Spotify authentication keys
 		spotifyKeys: {
 		  id: '7266be07a96e4939b09d284113a872ea',
 		  secret: '4ad95369674c4684851e97bda9d3ab3e',
 		},
 
+		// OMDB API key
 		omdb_key: '40e9cece',
 }
 
