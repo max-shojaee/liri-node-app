@@ -24,27 +24,27 @@ if (process.argv.length > 3)
 
 switch (command)
 {
-  	case "my-tweets":
+    case "my-tweets":
       getMyTweets();
       break;
 
-  	case "spotify-this-song":
+    case "spotify-this-song":
       // if no song given, then default to "The Sign"
       if (argument === "")
         argument = "The Sign"
       spotifyThisSong(argument);
       break;
 
-  	case "movie-this":
+    case "movie-this":
       // if no movie given, then default to "Mr. Nobody"
       if (argument === "")
         argument = "Mr. Nobody"
       movieThis(argument);
       break;
 
-  	case "do-what-it-says":
-  		doWhatItSays();
-  		break;
+    case "do-what-it-says":
+      doWhatItSays();
+      break;
 
     default: 
       console.log("usage: node liri.js <command>, where command is one of the following:");
